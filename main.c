@@ -120,7 +120,7 @@ if (selectedMovie == 1) {
     printf("Unknown Movie");
 }
      printf("Rental Days: %d\n", rentalDays);
-    printf("Total Cost: $%d\n", rentalCost);
+    printf("Total Cost: Rs.%d\n", rentalCost);
 
     return 0;
 }
