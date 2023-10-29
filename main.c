@@ -27,11 +27,11 @@ int main() {
     // Display the menu
     printf("******** Movie Rental System ********\n\n");
     printf("Please select a movie for rent:\n");
-    printf("1. %s => $%d per day, Available: %d\n", firstMovieName, firstMovieRate, firstMovieAvailable);
-    printf("2. %s => $%d per day, Available: %d\n", secondMovieName, secondMovieRate, secondMovieAvailable);
-    printf("3. %s => $%d per day, Available: %d\n", thirdMovieName, thirdMovieRate, thirdMovieAvailable);
-    printf("4. %s => $%d per day, Available: %d\n", fourthMovieName, fourthMovieRate, fourthMovieAvailable);
-    printf("5. %s => $%d per day, Available: %d\n\n", fifthMovieName, fifthMovieRate, fifthMovieAvailable);
+    printf("1. %s => Rs.%d per day, Available: %d\n", firstMovieName, firstMovieRate, firstMovieAvailable);
+    printf("2. %s => Rs.%d per day, Available: %d\n", secondMovieName, secondMovieRate, secondMovieAvailable);
+    printf("3. %s => Rs.%d per day, Available: %d\n", thirdMovieName, thirdMovieRate, thirdMovieAvailable);
+    printf("4. %s => Rs.%d per day, Available: %d\n", fourthMovieName, fourthMovieRate, fourthMovieAvailable);
+    printf("5. %s => Rs.%d per day, Available: %d\n\n", fifthMovieName, fifthMovieRate, fifthMovieAvailable);
 
     // Get user input
     printf("Enter the number of the movie you want to rent: ");
